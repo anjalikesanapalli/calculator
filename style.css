@@ -1,0 +1,90 @@
+body {
+  background-color: #000;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hidden {
+  display: none;
+}
+#name {
+  color: white;
+  margin-left: 250px;
+  font-size: 20px;
+}
+.calculator {
+  background-color: #f0f8ff;
+  width: 335px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.display {
+  background-color: lightblue;
+  padding: 15px;
+  text-align: right;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 70px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.btn-number {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-equal {
+  background-color: red;
+  color: #fff;
+}
+
+.btn-clear {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-history {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+#history-display {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn-operator-add {
+  background-color: #d0780c;
+  color: #fff;
+}
+
+.btn-operator-subtract {
+  background-color: rgb(176, 73, 176);
+  color: #fff;
+}
+
+.btn-operator-multiply {
+  background-color: #2bbaa9;
+  color: #fff;
+}
+
+.btn-operator-divide {
+  background-color: #145e35;
+  color: #fff;
+}

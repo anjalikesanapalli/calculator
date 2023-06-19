@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <div class="display" id="display"></div>
+      <table>
+        <tr>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('0')">
+              0
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('1')">
+              1
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('2')">
+              2
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-operator btn-operator-add"
+              onclick="addToDisplay('+')"
+            >
+              +
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('3')">
+              3
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('4')">
+              4
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('5')">
+              5
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-operator btn-operator-subtract"
+              onclick="addToDisplay('-')"
+            >
+              -
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('6')">
+              6
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('7')">
+              7
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('8')">
+              8
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-operator btn-operator-multiply"
+              onclick="addToDisplay('*')"
+            >
+              x
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-number" onclick="addToDisplay('9')">
+              9
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-clear" onclick="clearDisplay()">C</button>
+          </td>
+          <td>
+            <button class="btn btn-equal" onclick="calculate()">=</button>
+          </td>
+          <td>
+            <button
+              class="btn btn-operator btn-operator-divide"
+              onclick="addToDisplay('/')"
+            >
+              /
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <button class="btn btn-history" onclick="showHistory()">
+              History
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p class="hidden" id="name">History:</p>
+    <div id="history-display"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
